@@ -33,16 +33,16 @@ To enhance model generalization, data augmentation techniques were applied, incl
 ###### Modelling
 The VGG16 architecture was selected as the baseline model. The pre-trained VGG16 model, trained on ImageNet, was utilized for feature extraction. The top layers were modified to include a Flatten layer, Dense layers with ReLU activation, Dropout, and a Softmax output layer. The model was compiled using the Adam optimizer and categorical crossentropy loss.
 
-####### Model Evaluation
+###### Model Evaluation
 The VGG16 model achieved a test accuracy of 88.16%, indicating strong predictive capabilities. The confusion matrix highlighted the model's proficiency in pneumonia detection but revealed room for improvement, particularly in reducing false positives and false negatives.
 
-######## Results and Visualizations
+###### Results and Visualizations
 Visualizations included training/validation accuracy and loss plots, along with a confusion matrix heatmap. The close alignment of training and validation metrics demonstrated the model's generalization to unseen data.
 Usage
 
 To reproduce the experiments, follow the provided Jupyter Notebook link, ensuring the required dependencies are installed. Adjustments to parameters and architecture can be made for further experimentation.
 
-######### Dependencies
+#### Dependencies
 •	Python 3.x
 •	TensorFlow
 •	Keras
@@ -51,7 +51,7 @@ To reproduce the experiments, follow the provided Jupyter Notebook link, ensurin
 •	Pandas
 •	Seaborn
 
-########## Future Improvements
+###### Future Improvements
 
 Potential areas for improvement include fine-tuning, additional data collection, and exploring alternative architectures to enhance the model's performance.
 Acknowledgements
